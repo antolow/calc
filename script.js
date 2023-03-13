@@ -17,11 +17,13 @@ for (let key of keys) {
 }
 
 result.addEventListener('click', function () {
-    let exp = eval(disp.value);
+    exp = eval(disp.value);
     console.log(exp);
     disp.value = exp
 })
 
-reset.addEventListener('click', function(){
-    
+reset.addEventListener('click', function () {
+    disp.value = ""
+    exp = ""
 })
+
