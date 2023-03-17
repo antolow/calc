@@ -17,6 +17,10 @@ ul {
     margin: 0;
 }
 
+.wrapper {
+    background: url(math.jpg) no-repeat;
+}
+
 .keyboard {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +48,8 @@ ul {
     flex-direction: column;
     background-color: #c9c9c9;
     border-radius: 5px;
+    position: absolute; 
+ 
 }
 
 .calc__display {
@@ -51,6 +57,7 @@ ul {
     height: 40px;
     background-color: #fffcfc;
     border: none;
+    font-size: 20px;
 }
 
 .key-result {
